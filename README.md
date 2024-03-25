@@ -23,3 +23,19 @@ addNumbers(2.5, 3.5) ➞ 6
 > 1.  Ensure that the function handles invalid inputs appropriately. <br>
 > 2. If either input is not a number, return the message: "both inputs should be numbers.
 
+
+   ### 2. Problem: Return Next Number from the Integer Passed
+
+  > Problem Description: <br>
+  Write a JavaScript function called getNextNumber that takes an integer as input and returns the next integer.
+
+
+~~~javascript
+
+getNextNumber(5); // Output: 6
+getNextNumber(-8); // Output: -7
+getNextNumber(0); // Output: 1
+~~~
+> [!NOTE]
+> 1. The input integer can be positive, negative, or zero. <br>
+> 2. The input integer will be within the range of a 32-bit signed integer.
